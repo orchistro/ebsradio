@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-    <string>shawn.ebs.power_english.plist</string>
+    <string>shawn.ebs.power_english</string>
 	<key>ProgramArguments</key>
 	<array>
         <string>/Users/orchistro/ebsradio/ebs.sh</string>
