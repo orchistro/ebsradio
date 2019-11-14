@@ -16,12 +16,12 @@ Executing following command will record the live streaming audio from ebs radio 
 
 ### EBS streaming rtmp address list
 
-rtmp://ebsandroid.nefficient.com/groundwavefamilypc/familypc1m"; // 지상파 HD
-rtmp://ebsandroid.nefficient.com/ebsufamilypc/familypc1m"; //EBSu HD
-rtmp://ebsandroid.nefficient.com/fmradiofamilypc/familypc1m"; //FM 라디오 SD
-rtmp://ebsandroid.nefficient.com/plus1familypc/familypc1m"; //Plus1 SD
-rtmp://ebsandroid.nefficient.com/plus2familypc/familypc1m"; //Plus2 SD
-rtmp://ebsandroid.nefficient.com/plus3familypc/familypc1m"; //Plus3 SD
+rtmp://ebsandroid.nefficient.com/groundwavefamilypc/familypc1m // 지상파 HD
+rtmp://ebsandroid.nefficient.com/ebsufamilypc/familypc1m //EBSu HD
+rtmp://ebsandroid.nefficient.com/fmradiofamilypc/familypc1m //FM 라디오 SD
+rtmp://ebsandroid.nefficient.com/plus1familypc/familypc1m //Plus1 SD
+rtmp://ebsandroid.nefficient.com/plus2familypc/familypc1m //Plus2 SD
+rtmp://ebsandroid.nefficient.com/plus3familypc/familypc1m //Plus3 SD
 
 
 ## Converting .wav to .m4a
