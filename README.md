@@ -14,6 +14,16 @@ Executing following command will record the live streaming audio from ebs radio 
 /Applications/VLC.app/Contents/MacOS/VLC -I dummy rtmp://ebsandroid.ebs.co.kr/fmradiofamilypc/familypc1m vlc://quit --no-sout-video --sout-audio --no-sout-rtp-sap --no-sout-standard-sap --ttl=1 --sout-keep --sout "#transcode{acodec=s16l,channels=2}:std{access=file,mux=wav,dst=1.wav}" 2> /dev/null
 ```
 
+### EBS streaming rtmp address list
+
+rtmp://ebsandroid.nefficient.com/groundwavefamilypc/familypc1m"; // 지상파 HD
+rtmp://ebsandroid.nefficient.com/ebsufamilypc/familypc1m"; //EBSu HD
+rtmp://ebsandroid.nefficient.com/fmradiofamilypc/familypc1m"; //FM 라디오 SD
+rtmp://ebsandroid.nefficient.com/plus1familypc/familypc1m"; //Plus1 SD
+rtmp://ebsandroid.nefficient.com/plus2familypc/familypc1m"; //Plus2 SD
+rtmp://ebsandroid.nefficient.com/plus3familypc/familypc1m"; //Plus3 SD
+
+
 ## Converting .wav to .m4a
 
 ```bash
