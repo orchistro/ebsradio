@@ -35,3 +35,25 @@ Why not let vlc directly save output in mp3 format?
 Because, the sound quality is not quite good. It left me with no choice but to record using wav format and then convert it to aac format.
 
 ## Making your mac to automatically record the live stream
+
+After cloning this repo to your local directory, 
+```bash
+$ git clone https://github.com/orchistro/ebsradio.git
+```
+add a little modifications to `ebs.sh` and `*.plist` files to suit you right.
+
+And then run following command to register the recording task:
+```bash
+$ launchctl load shawn.ebs.power_english.plist
+```
+
+If you want to unregister the task:
+```bash
+$ launchctl unload shawn.ebs.power_english.plist
+```
+
+If you want the task automatically registered when your mac starts up, put it in `~/Library/LaunchAgents/` directory or make a link:
+```bash
+$ cd ~/Library/LaunchAgents/
+$ ln -s ~/ebsradio/shawn.ebs.power_english.plist shawn.ebs.power_english.plist
+```
